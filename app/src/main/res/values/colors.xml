@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
+    <color name="colorPrimary">#A3CB38</color>
+    <color name="colorPrimaryDark">#82a71f</color>
+    <color name="colorAccent">#C4E538</color>
+
+
+    <color name="transparanHitam">#55000000</color>
+
+    <color name="putih">#FFFFFF</color>
+
+    <color name="hijauMuda1">#C4E538</color>
+    <color name="hijauMuda2">#A3CB38</color>
+    <color name="hijauTua">#009432</color>
+
 </resources>

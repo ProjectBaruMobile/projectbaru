@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_detil_pemesanan">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bilss" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingTop="50dp"
+        android:paddingBottom="50dp"
+        android:layout_centerInParent="true">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/putih"
+            android:textSize="15dp"
+            android:text="Total Pemesanan"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:id="@+id/tv_totalPemesanan"
+            android:textSize="25dp"
+            android:textColor="@color/putih"
+            android:text="Rp. 0,-"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/putih"
+            android:textSize="15dp"
+            android:layout_marginTop="20sp"
+            android:text="Terimakasih"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:text="Pesan Lagi"
+                android:id="@+id/bt_pesanLagi"
+                android:textColor="@color/putih"
+                android:background="@color/hijauTua"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:text="Selesai"
+                android:id="@+id/bt_keluar"
+                android:textColor="@color/putih"
+                android:background="@color/hijauTua"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
